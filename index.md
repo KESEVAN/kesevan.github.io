@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Hello, I'm [Your Name] 
+# Hello, I'm Kesevan
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -165,25 +165,76 @@ layout: default
 
 </body>
 </html>
-## Passionate about AI, building the future with autonomous systems and generative models.
-
-[Image or animation related to your work]
 ---
 layout: default
-title: Your Name - AI Enthusiast 
+title:  Your Name - AI Specialist
 ---
-Future with AI</h1>
- terest:**
 
-* Autonomous Drones & Vehicles
-* Computer Vision
-* Deep Learning
-* Generative Adversarial Networks (GANs)
+<style>
+/* Basic Styling - Customize to match your brand */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin: 2rem auto;
+  display: block;
+}
 
-**Check out my latest projects:**
+.project-card {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease; /* Add a hover effect */
+}
 
-[List and link to your projects (project1.md, project2.md, etc.)]
+.project-card:hover {
+  transform: translateY(-5px); 
+}
+</style>
 
-**Connect with me:**
+<div class="container"> 
+  <div style="text-align: center;">
+    <img src="your-profile-pic.jpg" alt="Your Name" class="profile-img">
+    <h1>Hi, I'm [Your Name] 👋</h1>
+    <p>AI Enthusiast | Passionate about [Your Key Interests] | Building the future with code.</p>
+    <a href="https://github.com/your-github-username" target="_blank">GitHub</a> | 
+    <a href="https://linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a> 
+  </div>
 
-[LinkedIn, Github, Email]
+  ## 🚀 Featured Projects
+
+  <div class="project-card">
+    <h3>🧠 Project Title 1</h3>
+    <p>Short, engaging description of Project 1. Highlight the problem, your solution, and key technologies used.</p>
+    <a href="project1-link" target="_blank">Learn More</a>
+  </div>
+
+  <div class="project-card">
+    <h3>🤖 Project Title 2</h3>
+    <p>Short, engaging description of Project 2. Again, focus on what's interesting and relevant.</p>
+    <a href="project2-link" target="_blank">Learn More</a>
+  </div>
+
+  <!-- Add more projects as needed -->
+
+  ## ✨ Skills
+
+  <p>
+  **Languages:** Python, JavaScript, C++ <br>
+  **Frameworks/Libraries:** TensorFlow, PyTorch, React, Node.js <br>
+  **Tools:** Git, Docker, AWS, GCP <br>
+  **Other:** Agile Development, Machine Learning, Deep Learning, Computer Vision
+  </p>
+
+  ## 🌱  Currently Learning
+
+  <p>Always eager to expand my knowledge! Currently exploring [List your current learning areas]. </p>
+
+  ## 📬 Get in Touch
+
+  <p>Feel free to reach out! I'm always open to connecting and collaborating.</p>
+</div> 
+
