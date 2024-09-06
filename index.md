@@ -1,240 +1,109 @@
 ---
 layout: default
----
-
-# Hello, I'm Kesevan
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - AI Specialist</title>
-  <style>
-    /* 
-    *  Simple, Modern CSS Reset
-    */
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    /*
-    *  Basic Styling 
-    */
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      background: #f4f4f4;
-      color: #333;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
-    }
-
-    h1, h2, h3 {
-      color: #222;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-    }
-
-    h2 {
-      font-size: 2rem;
-      margin-top: 2rem;
-    }
-
-    a {
-      color: #3498db; 
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    /* 
-    *  Navigation
-    */
-    nav {
-      background: #fff;
-      padding: 1rem;
-      border-bottom: 1px solid #ddd;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; 
-    }
-
-    nav ul {
-      list-style: none;
-    }
-
-    nav li {
-      display: inline-block;
-      margin-left: 20px; 
-    }
-
-    /* 
-    *  Sections (Hero, About, Projects, etc.)
-    */
-    section {
-      padding: 3rem 0; 
-    }
-
-    .hero {
-      background: #3498db; /* Example background color */
-      color: #fff;
-      text-align: center;
-      padding: 6rem 0; 
-    }
-
-    .hero h1 {
-      font-size: 3rem; 
-    }
-
-    .hero p {
-      margin-bottom: 2rem; 
-    }
-
-    .project {
-      background: #fff;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-  </style>
-</head>
-<body>
-
-<nav>
-  <a href="#" class="logo">Your Name</a>
-  <ul>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<section class="hero">
-  <div class="container">
-    <h1>Building Intelligent Systems</h1>
-    <p>AI enthusiast passionate about autonomous systems, computer vision, and deep learning.</p>
-    <a href="#projects" class="btn">View Projects</a> </div>
-</section>
-
-<section id="projects" class="projects">
-  <div class="container">
-    <h2>Featured Projects</h2>
-    
-    <div class="project">
-      <h3>Project Title 1</h3>
-      <p>Short description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <a href="#">Learn More</a> </div>
-
-    </div>
-</section>
-
-<section id="about" class="about">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>Write a brief and engaging about section here. Talk about your skills, interests, and career aspirations.</p>
-  </div>
-</section>
-
-<section id="contact" class="contact">
-  <div class="container">
-    <h2>Get in Touch</h2>
-    <p>Add your contact information here (email, links to LinkedIn, Github, etc.).</p>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    © 2023 Your Name </div>
-</footer>
-
-</body>
-</html>
----
-layout: default
-title:  Your Name - AI Specialist
+title: Kesevan - AI for a brighter future
 ---
 
 <style>
-/* Basic Styling - Customize to match your brand */
+/* Styling inspired by simplicity and impact */
+body {
+    font-family: 'Inter', sans-serif; 
+    line-height: 1.8;
+    background: #f5f5f5; 
+    color: #222; 
+}
+
+.container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+}
+
+h1 { 
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .profile-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%; 
-  object-fit: cover; 
-  margin: 2rem auto;
-  display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 2rem auto; 
+    display: block; 
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15); 
 }
 
 .project-card {
-  background: white;
-  border-radius: 10px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease; /* Add a hover effect */
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-5px); 
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.emphasis {
+    font-weight: 600;
 }
 </style>
 
-<div class="container"> 
-  <div style="text-align: center;">
-    <img src="your-profile-pic.jpg" alt="Your Name" class="profile-img">
-    <h1>Hi, I'm [Your Name] 👋</h1>
-    <p>AI Enthusiast | Passionate about [Your Key Interests] | Building the future with code.</p>
-    <a href="https://github.com/your-github-username" target="_blank">GitHub</a> | 
-    <a href="https://linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a> 
-  </div>
+<div class="container">
+    <img src="your-profile-pic.jpg" alt="Kesevan" class="profile-img">
 
-  ## 🚀 Featured Projects
+    <h1>Kesevan</h1> 
 
-  <div class="project-card">
-    <h3>🧠 Project Title 1</h3>
-    <p>Short, engaging description of Project 1. Highlight the problem, your solution, and key technologies used.</p>
-    <a href="project1-link" target="_blank">Learn More</a>
-  </div>
+    <p>Building AI to solve humanity's most important problems.</p>
 
-  <div class="project-card">
-    <h3>🤖 Project Title 2</h3>
-    <p>Short, engaging description of Project 2. Again, focus on what's interesting and relevant.</p>
-    <a href="project2-link" target="_blank">Learn More</a>
-  </div>
+    <h2>🚀 Key Projects</h2>
 
-  <!-- Add more projects as needed -->
+    <div class="project-card">
+        <h3>🧠 [Project Title 1]</h3>
+        <p>[Very concise description focused on impact. E.g., "Developed advanced language models with X capabilities, impacting Y users."]</p>
+    </div>
 
-  ## ✨ Skills
+    <div class="project-card">
+        <h3>🤖 [Project Title 2]</h3>
+        <p>[Another concise, impact-driven description. E.g., "Created AI systems for X, resulting in Y% improvement in Z."]</p>
+    </div>
 
-  <p>
-  **Languages:** Python, JavaScript, C++ <br>
-  **Frameworks/Libraries:** TensorFlow, PyTorch, React, Node.js <br>
-  **Tools:** Git, Docker, AWS, GCP <br>
-  **Other:** Agile Development, Machine Learning, Deep Learning, Computer Vision
-  </p>
+    <!-- Add more projects as needed -->
 
-  ## 🌱  Currently Learning
+    <h2>👨‍💻  About Me</h2> 
+    <p>Driven by a passion for [1-2 core values, e.g., "using technology to solve real-world problems," "building a positive future"], 
+        I'm dedicated to [Your key area of focus within AI].</p>
+    
+    <p>Beyond the technical, I'm interested in [1-2 additional interests, e.g., "the ethical implications of AI," "philosophy," "space exploration"].</p>
 
-  <p>Always eager to expand my knowledge! Currently exploring [List your current learning areas]. </p>
+    <p><a href="https://github.com/your-github-username" target="_blank">GitHub</a> | 
+    <a href="https://linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a> </p> 
 
-  ## 📬 Get in Touch
-
-  <p>Feel free to reach out! I'm always open to connecting and collaborating.</p>
-</div> 
-
+</div>
